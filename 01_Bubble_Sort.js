@@ -20,5 +20,5 @@ function bubbleSortAlgo(arraytest) {
 }
 
 console.log(bubbleSortAlgo([3, 6, -5, 0, 33, 78])); //  [ -5, 0, 3, 6, 33, 78 ];
-//console.log(bubbleSortAlgo([38, 6000, 7, 0, 7, 78]));  // [ 0, 7, 7, 38, 78, 6000 ]
-//console.log(bubbleSortAlgo([310, -2, -6, -100, -7, -78]));  // [ -100, -78, -7, -6, -2, 310 ]
+console.log(bubbleSortAlgo([38, 6000, 7, 0, 7, 78]));  // [ 0, 7, 7, 38, 78, 6000 ]
+console.log(bubbleSortAlgo([310, -2, -6, -100, -7, -78]));  // [ -100, -78, -7, -6, -2, 310 ]

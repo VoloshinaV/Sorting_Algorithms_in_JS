@@ -1,5 +1,4 @@
-function selectionSort(inputArr) { 
-        
+function selectionSort(inputArr) {    
     for(let i = 0; i < inputArr.length; i++) {
         // Finding the smallest number in the subarray
         let min = i;
@@ -9,10 +8,10 @@ function selectionSort(inputArr) {
             }
          }
          if (min != i) {
-             // Swapping the elements
-             let temp = inputArr[i]; 
-             inputArr[i] = inputArr[min];
-             inputArr[min] = temp;      
+            // Swapping the elements
+            let temp = inputArr[i]; 
+            inputArr[i] = inputArr[min];
+            inputArr[min] = temp;      
         }
     }
     return inputArr;
